@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.example {
+    -ms-overflow-style: none;
+    /* IE and Edge /
+    scrollbar-width: none;
+    / Firefox */
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    background-image: url("../img/TKM.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 20px;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header h1 {
+    font-size: 100px;
+    color: white
+}
+
+#example2 {
+    border: 2px solid black;
+    border-radius: 50px 40px;
+    padding: 25px;
+}
+
+.padding_contenido {
+    padding: 5%;
+}
+
+#example3 {
+    border: 2px solid black;
+    border-radius: 50px 40px;
+    padding: 25px;
+}
+
+h2 {
+    font-size: 70px;
+}
+
+.one-column {
+    padding: 5%;
+    float: left;
+    width: 100%;
+    color: white;
+}
+
+.one-column h1 {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.two-column {
+    padding: 2%;
+    float: left;
+    width: 50%;
+}
+
+.two-column h1 {
+    font-size: 6vw;
+}
+
+.two-column img {
+    width: 100%;
+}
+
+.three-column {
+    font-size: 22px;
+    padding: 20px;
+    float: right;
+    width: 33.33%;
+}
+
+.three-column img {
+    width: 100%;
+}
+
+.four-column {
+    float: left;
+    width: 25%;
+}
+
+.four-column img {
+    width: 100%;
+}
+
+.four-column p {
+    text-align: center;
+}
+
+#section-1 {
+    padding: 30;
+}
+
+#section-2 {
+    background-color: black;
+    color: white;
+}
+
+#section-5 {
+    background-color: #46a6fc;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+/*clases auxiliares*/
+
+#contenido {
+    padding: 0% 0% 5% 30%;
+    width: auto;
+}
+
+#contenido img {
+    width: 60%;
+    height: 50%;
+}
+
+.padding-0 {
+    padding: 0px;
+}
+
+.padding-30 {
+    padding-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-size: 25px;
+    padding: 5px 15px;
+    overflow: hidden;
+    transition: 0.8s;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    width: 25%;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 3px solid black;
+    padding: 6px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #33ccff;
+    color: black;
+}
+
+#demo {
+    padding: 3% 10% 0% 30%;
+}
+
+@media screen and (max-width:700px) {
+    .one-column h1 {
+        font-size: 8vw;
+    }
+    .two-column {
+        width: 100%;
+    }
+    .two-column h1 {
+        font-size: 8vw;
+    }
+    .two-column p {
+        font-size: 4.2vw;
+    }
+    .four-column {
+        width: 50%;
+    }
+    .header {
+        font-size: 20px;
+        padding-top: 160px;
+    }
+    .header h1 {
+        font-size: 20vw;
+    }
+    li a {
+        font-size: 20px;
+        display: inline-block;
+    }
+    li {
+        width: 50%;
+        float: none;
+        display: inline-block;
+    }
+    ul {
+        padding: 0px;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    #discord {
+        width: 100%;
+    }
+    #demo {
+        font-size: 10vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
