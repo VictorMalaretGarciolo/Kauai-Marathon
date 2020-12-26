@@ -131,6 +131,7 @@ h2 {
     color: white;
     font-size: 20px;
     text-align: left;
+    padding-top: 22px;
 }
 
 
@@ -231,6 +232,9 @@ li a:hover {
     }
     .four-column {
         width: 50%;
+    }
+    .four-column img {
+        height: 150px;
     }
     .header {
         font-size: 20px;
